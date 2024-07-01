@@ -21,7 +21,7 @@ local plugin_treesitter = {
 
 		configs.setup({
 			ensure_installed = { "c", "lua", "vim", "vimdoc", "query", "cpp",
-				"heex", "javascript", "html", "ruby" },
+				"heex", "javascript", "html", "ruby", "php" },
 			sync_install = false,
 			highlight = { enable = true },
 			indent = { enable = true },  
